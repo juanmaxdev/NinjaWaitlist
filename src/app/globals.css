@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Jansina';
+  src: url('/assets/fonts/Jansina.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NinjaKage';
+  src: url('/assets/fonts/Ninjakage-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zenjirou';
+  src: url('/assets/fonts/Zenjirou.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AssassinNinja';
+  src: url('/assets/fonts/AssassinNinja.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  --background_gradient: linear-gradient(to bottom, #09090b, #000000, #09090b);
+}
+
+.background-gradient {
+  background: var(--background_gradient);
+}
+
+.font-jansina {
+  font-family: 'Jansina', sans-serif;
+}
+
+.font-ninjakage {
+  font-family: 'NinjaKage', sans-serif;
+}
+
+.font-zenjirou {
+  font-family: 'Zenjirou', sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-ninja {
+  font-family: 'AssassinNinja', sans-serif;
+  letter-spacing: 2px;
+}
